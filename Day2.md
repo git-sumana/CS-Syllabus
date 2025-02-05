@@ -58,3 +58,46 @@ Each network component operates at a specific level of the OSI model.
 | **Access Level** | Ethernet Switches, Wireless Access Points | Provides direct connectivity to end-users. |
 
 ---
+
+# **IP Address and MAC Address: Overview & Types**  
+
+## **1. IP Address (Internet Protocol Address)**
+An **IP address** is a unique numerical identifier assigned to devices on a network, allowing them to communicate over the internet or a local network.  
+
+### **Types of IP Addresses**  
+#### **A. Based on Version:**  
+- **IPv4 (Internet Protocol Version 4)**  
+  - 32-bit address (e.g., `192.168.1.1`)  
+  - Supports ~4.3 billion unique addresses  
+- **IPv6 (Internet Protocol Version 6)**  
+  - 128-bit address (e.g., `2001:0db8:85a3::8a2e:0370:7334`)  
+  - Supports a virtually unlimited number of addresses  
+
+#### **B. Based on Usage:**  
+- **Public IP Address** (Globally unique, assigned by ISPs)  
+- **Private IP Address** (Used within local networks, e.g., `192.168.1.1`, `10.0.0.1`)  
+- **Static IP Address** (Manually assigned, does not change)  
+- **Dynamic IP Address** (Assigned by DHCP, changes periodically)  
+
+---
+
+## **2. MAC Address (Media Access Control Address)**
+A **MAC address** is a unique identifier assigned to a network interface card (NIC) of a device. It operates at **Layer 2 (Data Link Layer)** of the OSI model.
+
+### **MAC Address Types:**
+- **Unicast MAC Address** (Identifies a single device)  
+- **Multicast MAC Address** (Used to send data to multiple devices)  
+- **Broadcast MAC Address** (`FF:FF:FF:FF:FF:FF` - sends data to all devices on a network)  
+
+---
+
+## **Key Differences:**
+| **Feature**  | **IP Address**  | **MAC Address**  |
+|-------------|---------------|---------------|
+| **Purpose**  | Identifies a device on a network for communication | Uniquely identifies a device’s network interface  |
+| **Layer**  | Network Layer (Layer 3) | Data Link Layer (Layer 2)  |
+| **Format**  | IPv4 (32-bit), IPv6 (128-bit) | 48-bit (e.g., `00:1A:2B:3C:4D:5E`)  |
+| **Changeability**  | Can be changed (dynamic/static) | Usually fixed (but can be spoofed) |
+| **Scope**  | Works across networks (global) | Works within local networks (LAN) |
+
+---
