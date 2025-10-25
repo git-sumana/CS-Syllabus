@@ -1,11 +1,3 @@
-Excellent question 👏 — and a very smart one to ask before diving deep.
-
-The topics you’ve listed are **a solid foundation for a beginner SOC Analyst (0–1 year)**, but for **2 years of experience**, you’re expected to go **beyond fundamentals** — into **hands-on security operations**, **advanced log analysis**, **SIEM management**, and **threat intelligence correlation**.
-
-Let’s break it down properly.
-
----
-
 ## 🎯 Goal: SOC Analyst – 2 Years of Experience
 
 You should be able to:
