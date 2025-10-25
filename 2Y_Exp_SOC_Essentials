@@ -1,0 +1,197 @@
+Excellent question 👏 — and a very smart one to ask before diving deep.
+
+The topics you’ve listed are **a solid foundation for a beginner SOC Analyst (0–1 year)**, but for **2 years of experience**, you’re expected to go **beyond fundamentals** — into **hands-on security operations**, **advanced log analysis**, **SIEM management**, and **threat intelligence correlation**.
+
+Let’s break it down properly.
+
+---
+
+## 🎯 Goal: SOC Analyst – 2 Years of Experience
+
+You should be able to:
+
+* Confidently monitor, analyze, and respond to security incidents.
+* Work independently in SIEM (like Splunk or Azure Sentinel).
+* Understand attacker techniques (MITRE ATT&CK).
+* Automate repetitive analysis tasks with Python or playbooks.
+* Generate and interpret threat intelligence.
+
+---
+
+## 🧭 COMPLETE SYLLABUS for 2-YEAR SOC SKILL LEVEL
+
+### 🧩 **MODULE 1: Networking & Protocols (Deep Practical)**
+
+> Duration: 2–3 weeks
+
+**Learn**
+
+* OSI & TCP/IP models in detail (headers, packet flow)
+* Subnetting, routing, ARP, DHCP
+* DNS deep dive (records, DNSSEC, tunneling)
+* HTTP/HTTPS + encryption negotiation (TLS handshake)
+* VPN protocols: IPSec, SSL, IKEv2
+* Firewall architectures (NGFW, WAF, proxy, cloud firewalls)
+* IDS/IPS detection mechanisms (signatures, heuristics, anomaly detection)
+
+**Hands-on**
+
+* Wireshark packet capture and analysis
+* Set up simple pfSense firewall
+* Simulate DNS/HTTP traffic and analyze packets
+* Deploy Suricata/Snort and generate test alerts
+
+---
+
+### 🧠 **MODULE 2: SIEM & Log Analysis (Core SOC Skill)**
+
+> Duration: 3–4 weeks
+
+**Learn**
+
+* What SIEM does, architecture overview
+* Log sources: Windows, Linux, Firewall, IDS, Cloud
+* Log parsing, normalization, and correlation
+* Rule creation, alert tuning, and false positive reduction
+* Detection engineering basics (writing detection logic)
+* MITRE ATT&CK mapping
+
+**Hands-on (choose one SIEM)**
+
+* Splunk → create dashboards, correlation searches
+* Azure Sentinel → KQL queries, analytics rules, playbooks
+* Wazuh → open-source SIEM setup and alerting
+
+---
+
+### 🔍 **MODULE 3: Threat Analysis & Detection**
+
+> Duration: 3 weeks
+
+**Learn**
+
+* UEBA (behavior-based detection)
+* Phishing analysis (header, URL, payload, sandbox)
+* Malware analysis (static/dynamic)
+* Threat Hunting concepts (hypothesis, IOCs, TTPs)
+* Threat Intel sources (VirusTotal, AbuseIPDB, AlienVault OTX, MISP)
+* Incident Response lifecycle (NIST model)
+
+**Hands-on**
+
+* Analyze phishing emails
+* Extract and validate IoCs
+* Use VirusTotal / Hybrid Analysis / Any.Run
+* Build simple threat hunt queries (in Splunk/Sentinel)
+
+---
+
+### ⚙️ **MODULE 4: Security Tools Mastery**
+
+> Duration: 4 weeks
+
+**Learn and use**
+
+* **Network**: Wireshark, Nmap, tcpdump
+* **Endpoint**: Sysmon, Velociraptor, ELK Stack
+* **SIEM**: Splunk / Sentinel / Wazuh
+* **Forensics**: Autopsy, FTK Imager
+* **Threat Intel**: MISP, OTX
+* **Ticketing/Case Mgmt**: ServiceNow, JIRA, TheHive
+
+**Goal:** Be able to use at least 4–5 tools confidently in real incident scenarios.
+
+---
+
+### 💻 **MODULE 5: Scripting & Automation**
+
+> Duration: 3 weeks
+
+**Python**
+
+* Parse log files
+* Regex-based IOC extraction
+* Call APIs (VirusTotal, AbuseIPDB)
+* Automate alert enrichment
+
+**PowerShell / Bash**
+
+* System info collection scripts
+* Basic endpoint triage automation
+
+**SIEM Automation**
+
+* Azure Sentinel Logic Apps
+* Splunk SOAR / Cortex XSOAR overview
+
+---
+
+### ☁️ **MODULE 6: Platforms & Cloud Security**
+
+> Duration: 3 weeks
+
+**Windows Server**
+
+* Event ID 4624, 4625, 4672, etc.
+* Group Policy & AD attacks basics (Kerberoasting, Pass-the-Hash)
+
+**Linux Server**
+
+* Syslog, auth logs, and auditd monitoring
+* SSH brute force and log correlation
+
+**Cloud (Azure, AWS basics)**
+
+* IAM roles and access keys
+* CloudTrail / Azure Activity logs
+* Cloud attack scenarios (e.g., exposed storage buckets, privilege escalation)
+
+---
+
+### 🧱 **MODULE 7: Frameworks & Methodologies**
+
+> Duration: 2 weeks
+
+**Learn**
+
+* MITRE ATT&CK Framework
+* Cyber Kill Chain
+* NIST SP 800-61 IR Framework
+* ISO 27001 and basic compliance ideas
+* SOC playbook structure
+
+---
+
+### 🔬 **MODULE 8: Projects & Real-World Simulation**
+
+> Duration: 3–4 weeks
+
+**Mini Projects**
+
+1. Build a **Home SOC Lab** using VirtualBox or Wazuh.
+2. Perform **attack simulation** using Atomic Red Team or Metasploit and detect it in SIEM.
+3. Write **custom detection rules** for a brute force or phishing event.
+4. Create an **incident response report** (timeline, logs, root cause, mitigation).
+5. Automate a **threat enrichment script** using VirusTotal API.
+
+---
+
+## 📈 OPTIONAL ADVANCED SKILLS (2+ yrs Advantage)
+
+* **Splunk SPL / KQL mastery**
+* **SOAR Automation (Cortex, Splunk SOAR)**
+* **EDR tools** (CrowdStrike, Defender for Endpoint)
+* **Threat Intelligence correlation**
+* **MITRE ATT&CK mapping to SIEM detections**
+
+---
+
+## 🕒 Recommended Total Duration: 6–8 months (realistic pace)
+
+> 1–1.5 hrs per day on alternate days (as you’ve been doing).
+> Practice > Theory. Build hands-on labs often.
+
+---
+
+Would you like me to turn this into a **chronological 6-month roadmap (week-by-week learning plan)** for SOC Analyst Level-2 (≈2 years experience)?
+That plan would include what to study each week, which labs/tools to practice, and when to revise or do projects.
